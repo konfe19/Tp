@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+	<link rel="stylesheet" href="../Style.css">
+</head>
+<body>
+</head>
+<body>
+    <header>
+        <p id="mes">Mon Site Personnel <br>Accueil</p>
+    </header>
+    <nav>
+        <ul class="lu">
+            <li class="le"><a href="../index.html">Acceuil</a></li>
+            <li class="le"><a href="CV.html">CV</a></li>
+            <li class="le" id="select"><a href="Agenda.html">Agenda</a></li>
+            <li class="le"><a href="Photo.html">Photo</a></li>
+            <li class="le"><a href="Contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+	<fieldset>
+		<h1 class="message">Mon Programme</h1>
+	</fieldset>
+    <section >
+		<table class="tableau" id="Agenda" border=1 cellspacing=0>
+				<tr class="TR"> 
+					<th>Horaires</th>
+					<th>Lundi</th>
+					<th>Mardi</th>
+					<th>Mercredi</th>
+					<th>Jeudi</th>
+					<th>Vendredi</th>
+				</tr>
+				<tr class="TR"> 
+					<td class="TD">8h-10h</td>
+					<td class="TD" id="red">Teeo</td>
+					<td class="TD" id="pink">Programation C</td>
+					<td class="TD" id="yellow">Electricité</td>
+					<td class="TD" id="orang">Programation Java</td>
+					<td class="TD" id="gris" rowspan=2>Sport</td>
+				</tr>
+				<tr class="TR"> 
+					<td class="TD">10h-12h</td>
+					<td class="TD" id="green">Anglais</td>
+					<td class="TD"></td>
+					<td class="TD" id="orchid">Math General</td>
+					<td class="TD" id="yellowgreen">Réseaux</td>
+				</tr>
+				<tr id="espace" class="TR"> 
+					<td class="TD" id="chartreuse" colspan="6"></td>
+				</tr>
+				<tr class="TR"> 
+					<td class="TD">14h-16h</td>
+					<td class="TD" id="web" rowspan=2>Math Appliqué</td>
+					<td class="TD" id="bd">Base de données</td>
+					<td class="TD" id="br" rowspan=2>Base de routage</td>
+					<td class="TD" id="droit">Droit</td>
+					<td class="TD" id="red" rowspan=2>Teeo</td>
+				</tr>
+                <tr class="TR"> 
+					<td class="TD">16h-18h</td>
+					<td class="TD" ></td>
+					<td class="TD" ></td>
+				</tr>
+		</table>
+		<p class="message"><b>legend</b></p>
+		<table class="tableau" id="legend">
+		<tr>
+			<td><span class="square" id="red"></span>Teeo</td>
+			<td><span class="square" id="pink"></span>Programation C</td>
+			<td><span class="square" id="yellow"></span>Electricité</td>
+		</tr>
+		<tr>
+			<td><span class="square" id="orang"></span>Programation Java</td>
+			<td><span class="square" id="gris"></span>Sport</td>
+			<td><span class="square" id="green"></span>Anglais</td>
+		</tr>
+		<tr>
+			<td><span class="square" id="orchid"></span>Math General</td>
+			<td><span class="square" id="yellowgreen"></span>Réseaux</td>
+			<td><span class="square" id="web"></span>Math Appliqué</td>
+		</tr>
+		<tr>
+			<td><span class="square" id="bd"></span>Base de données</td>
+			<td><span class="square" id="br"></span>Base de routage</td>
+			<td><span class="square" id="droit"></span>Droit</td>
+		</tr>
+		</table>
+		
+	</section>
+</body>
+</html>
